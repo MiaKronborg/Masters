@@ -4,6 +4,9 @@
 
 
 %% Get the tracks from the flight records
+% The script first removes the information from flight records that are not
+% relevant and then extracts every 10th row to downsample the data
+
 clear,
 
 pa = '/Users/MiaKronborg/Documents/Specialeprojekt/HoB17/Data/20170731/FlightRecords/20170731.22.05.csv'
